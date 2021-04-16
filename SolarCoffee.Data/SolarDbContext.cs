@@ -15,5 +15,10 @@ namespace SolarCoffee.Data
 
         public virtual DbSet<Customer> Customers { get; set; }
         public virtual DbSet<CustomerAddress> CustomerAddresses { get; set; }
+        public virtual DbSet<Product> Product { get; set; }
+        public virtual DbSet<ProductInventory> ProductInventory { get; set; }
+        public virtual DbSet<ProductInventorySnapshot> ProductInventorySnapshot { get; set; }
+        public virtual DbSet<SalesOrder> SalesOrder { get; set; }
+        public virtual DbSet<SalesOrderItem> SalesOrderItem { get; set; }
     }
 }
